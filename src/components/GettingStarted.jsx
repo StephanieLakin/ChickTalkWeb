@@ -46,7 +46,7 @@ const GettingStarted = () => (
     
     <div
       className={`flex-1 flex ${styles.flexCenter}md:my-0 my-10 sm:mr-12 sm:ml-0       
-      xs:mr-20 xs:ml-0 items-center relative`}    >     
+      xs:mr-20 xs:ml-0 items-center relative`}>     
       <img
         src={img.eggs}
         alt="eggs"

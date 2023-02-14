@@ -1,62 +1,61 @@
 import React from "react";
 import styles from "../style";
 import { img } from "../constants";
-import CR_Button from "../components/CR_Button";
-
+import LM_Button from "../components/LM_Button";
 
 const CoopsRuns = () => (
   <section
-    id="gettingStartedDetail"
-    className={`flex md:flex-row flex-col`}
+    id="coops&Runs"
+    className={`flex md:flex-row flex-col ${styles.paddingY} mt-20`}
   >
     <div
-      className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 `}
+      className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
     >
       <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
-      
         <p className={`${styles.paragraph} ml-2`}>
-          <span className="text-white">Which comes first,</span>{" "}
-          <span className="text-white">the chicken or the </span>coop?
+          <span className="text-white">To Buy or Build,</span>{" "}
+          <span className="text-white">that is the </span>Question.
         </p>
       </div>
 
       <div className="flex flex-row justify-between items-center w-full">
         <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
-          First Things  <br className="sm:block hidden" />{" "}
-          <span className="text-gradient">First...</span>{" "}
+          Coops and <br className="sm:block hidden" />{" "}
+          <span className="text-gradient">Runs</span>{" "}
         </h1>
         <div className="ss:flex hidden md:mr-4 mr-0 z-[3] relative left-[60%] bottom-[10%]">
-          <CR_Button />
-        </div>   
-     
+          <LM_Button />
+        </div>
       </div>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        To get started with backyard chickens, you will need a coop that is
-        sturdy and secure to provide protection for your birds at night.
-        Additionally, you will need a run, which is an enclosed area for them to
-        move around and get fresh air during the day. You will also require
-        containers to hold food and water, as well as a good quality feed that
-        is specifically formulated for chickens. Bedding material, such as straw
-        or wood chips, is necessary to line the floor of the coop and absorb
-        moisture, as well as provide insulation. Nesting boxes will give your
-        hens a place to lay eggs, and if you live in a location with short
-        daylight hours in winter, you may need to provide additional light to
-        keep your chickens laying. Lastly, you will need to obtain healthy
-        chickens to start your backyard flock.
-      </p>     
+        Prefab coops can vary in price, but generally, they are more expensive
+        than building your own coop. Consider your budget and how much you are
+        willing to spend. Building your own chicken coop takes time and effort.
+        If you have limited time available, a prefab coop may be a better option
+        since it requires less time and work. Building a chicken coop requires
+        some level of skill and knowledge. If you have experience in woodworking
+        and construction, you may be able to build a coop yourself. However, if
+        you lack the necessary skills, a prefab coop may be a better choice. If
+        you have specific requirements for your chicken coop, such as a certain
+        size or style, building your own coop may allow you to customize it to
+        your liking. Prefab coops may have limitations in terms of design and
+        customization. Consider these factors and decide which option works best 
+        for you based on your personal situation and preferences.
+        </p>
     </div>
 
-    <div className={`flex-1 flex ${styles.flexCenter} h-[100vw] w-[auto] md:my-0 my-10 sm:mr-12 sm:ml-0       
-      xs:mr-20 xs:ml-0 items-center relative`}>
+    <div
+      className={`flex-1 flex ${styles.flexCenter}md:my-0 my-10 sm:mr-12 sm:ml-0       
+      xs:mr-20 xs:ml-0 items-center relative`}
+    >
       <img
         src={img.chickenInCoop}
-        alt="chickenInCoop"     
-        className="w-[60rem] h-[auto]   px-6 sm:mr-12 sm:ml-0
+        alt="babies"
+        className="w-[60rem] h-[auto] px-6 sm:mr-12 sm:ml-0
         relative z-[1] rounded-full drop-shadow-md contrast-150"
-      />      
+      />
     </div>
-
   </section>
 );
 
-export default  CoopsRuns;
+export default CoopsRuns;

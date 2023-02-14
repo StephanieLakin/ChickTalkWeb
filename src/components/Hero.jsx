@@ -42,13 +42,11 @@ const Hero = () => (
       className={`flex-1 flex ${styles.flexCenter} place-content-center `}
     > */}
      <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 sm:mr-12 sm:ml-0 
-      
-     xs:mr-20 xs:ml-0 items-center relative`}>
+      xs:mr-20 xs:ml-0 items-center relative`}>
       <img
         src={img.nesting}
         alt="nestbox"
-        className="w-[100%] h-[auto] sm:w-[auto] px-6 sm:mr-12 sm:ml-0
-       
+        className="w-[100%] h-[auto] sm:w-[auto] px-6 sm:mr-12 sm:ml-0       
          relative z-[1] rounded-full drop-shadow-md contrast-150 "
       />
 
@@ -58,10 +56,9 @@ const Hero = () => (
       <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient" />
       {/* gradient end */}
     </div>
-
-    <div className={`ss:hidden ${styles.flexCenter}`}>
-      {/* <GetStarted /> */}
-    </div>
+    {/* <div className={`ss:hidden ${styles.flexCenter}`}>
+      <GetStarted />
+    </div> */}
   </section>
 );
 

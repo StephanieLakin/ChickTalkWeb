@@ -6,13 +6,9 @@ export const navLinks = [
   {
     id: "gettingStarted",
     title: "Getting Started",
-  },
-  // {
-  //   id: "gettingStartedDetail",
-  //   title: "gettingStarted",
-  // },
+  }, 
   {
-    id: "coops",
+    id: "coops&Runs",
     title: "Coops & Runs",
   },
   {

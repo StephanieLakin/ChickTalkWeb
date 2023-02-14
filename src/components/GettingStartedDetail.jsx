@@ -7,10 +7,10 @@ import CR_Button from "../components/CR_Button";
 const GettingStartedDetail = () => (
   <section
     id="gettingStartedDetail"
-    className={`flex md:flex-row flex-col`}
+    className={`flex md:flex-row flex-col ${styles.paddingY} mt-20`}
   >
     <div
-      className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 `}
+       className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
     >
       <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
       
@@ -25,7 +25,7 @@ const GettingStartedDetail = () => (
           First Things  <br className="sm:block hidden" />{" "}
           <span className="text-gradient">First...</span>{" "}
         </h1>
-        <div className="ss:flex hidden md:mr-4 mr-0 z-[3] relative left-[60%] bottom-[10%]">
+        <div className="ss:flex hidden md:mr-4 mr-0 z-[3] relative left-[60%] bottom-[20%]">
           <CR_Button />
         </div>   
      
@@ -46,12 +46,12 @@ const GettingStartedDetail = () => (
       </p>     
     </div>
 
-    <div className={`flex-1 flex ${styles.flexCenter} h-[100vw] w-[auto] md:my-0 my-10 sm:mr-12 sm:ml-0       
+    <div className={`flex-1 flex ${styles.flexCenter}md:my-0 my-10 sm:mr-12 sm:ml-0       
       xs:mr-20 xs:ml-0 items-center relative`}>
       <img
         src={img.babies}
         alt="babies"     
-        className="w-[60rem] h-[auto]   px-6 sm:mr-12 sm:ml-0
+        className="w-[60rem] h-[auto] px-6 sm:mr-12 sm:ml-0
         relative z-[1] rounded-full drop-shadow-md contrast-150"
       />      
     </div>
