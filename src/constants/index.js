@@ -18,11 +18,15 @@ export const navLinks = [
   {
     id: "blog",
     title: "Blog",
+  },  
+  {
+    id:"social",
+    title: "Social"
   },
   {
     id: "products",
     title: "Products",
-  },
+  }
 ];
 
 export const img = {
@@ -37,5 +41,6 @@ export const img = {
   hen: "/src/assets/hen.png",
   freeRange: "/src/assets/freeRange.jpg",
   arrowUp: "/src/assets/arrow-up.svg",
-  chickenInCoop: "/src/assets/chickenInCoop.jpg"
+  chickenInCoop: "/src/assets/chickenInCoop.jpg",
+  chickens: "/src/assets/chickens.jpg"
 };

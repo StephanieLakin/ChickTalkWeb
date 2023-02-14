@@ -11,7 +11,7 @@ const GettingStarted = () => (
       className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
     >
           
-      <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
+      <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-5">
         {/* <img src={img.nesting} alt="nesting" className="w-[32px] h-[32px]" /> */}
         <p className={`${styles.paragraph} ml-2`}>
           <span className="text-white">Backyard </span>Chickens{" "}
@@ -54,8 +54,7 @@ const GettingStarted = () => (
         relative z-[1] rounded-full drop-shadow-md contrast-150"
       />  
     </div>       
-  </section>
-  
+  </section>  
 );
 
 export default GettingStarted;

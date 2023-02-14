@@ -6,6 +6,7 @@ import {
   Hero,
   GettingStarted,
   GettingStartedDetail,
+  CareFeed
 } from "./components";
 
 const App = () => {
@@ -29,7 +30,7 @@ const App = () => {
           <GettingStarted />
           <GettingStartedDetail />
           <CoopsRuns />
-
+          <CareFeed/>
           {/*<Footer /> */}
         </div>
       </div>
