@@ -4,7 +4,7 @@ import { img } from "../constants";
 import CR_Button from "../components/CR_Button";
 
 
-const GettingStartedDetail = () => (
+const CoopsRuns = () => (
   <section
     id="gettingStartedDetail"
     className={`flex md:flex-row flex-col`}
@@ -49,8 +49,8 @@ const GettingStartedDetail = () => (
     <div className={`flex-1 flex ${styles.flexCenter} h-[100vw] w-[auto] md:my-0 my-10 sm:mr-12 sm:ml-0       
       xs:mr-20 xs:ml-0 items-center relative`}>
       <img
-        src={img.babies}
-        alt="babies"     
+        src={img.chickenInCoop}
+        alt="chickenInCoop"     
         className="w-[60rem] h-[auto]   px-6 sm:mr-12 sm:ml-0
         relative z-[1] rounded-full drop-shadow-md contrast-150"
       />      
@@ -59,4 +59,4 @@ const GettingStartedDetail = () => (
   </section>
 );
 
-export default  GettingStartedDetail;
+export default  CoopsRuns;
